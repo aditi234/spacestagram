@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+h2 {
+  font-family: "Acme", sans-serif;
+  color: rgb(199, 209, 221);
+}
+h1 {
+  font-family: "Acme", sans-serif;
+  color: bisque;
+}
+
+p {
+  color: blanchedalmond;
+}
+
+img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}

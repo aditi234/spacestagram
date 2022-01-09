@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Condensed:wght@300&display=swap");
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.outer {
+  display: inline-block;
+  width: 100%;
+  flex: 1 0 25%;
+  padding: 10px;
+}
+
+.box1 {
+  width: 320px;
+  padding: 5px;
+  margin: 10px;
+  border: 3px solid rgb(194, 191, 191);
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px rgb(125, 125, 156), 10px 10px 8px rgb(202, 191, 191),
+    15px 15px 8px rgb(194, 219, 194);
+  /* columns: 300px 2; */
+}
+
+img {
+  width: 320px;
+  height: 320px;
+}
+
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: wheat;
+}
