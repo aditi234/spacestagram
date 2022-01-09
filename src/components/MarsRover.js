@@ -17,7 +17,6 @@ export default function MarsRover(){
         Object.keys(pics).forEach(v=>{
             setUpdate((updatePic)=>[...updatePic,{...pics[v], like:false}]);
         });
-        console.log(updatePic);
     },[]);
     const funcLike=(e)=>{
         let newObj=[...updatePic];
