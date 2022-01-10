@@ -31,3 +31,11 @@ h4 {
   font-family: "Roboto Condensed", sans-serif;
   color: wheat;
 }
+
+.load button {
+  background-color: #363b44;
+  height: 50px;
+  border-radius: 50px;
+  color: rgb(243, 237, 237);
+  border: 2px solid #bfc9bf; /* Green */
+}
